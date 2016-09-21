@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/frame"
+        
+        ></LinearLayout>
+    
+    <RadioGroup 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/radiogroup"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        
+        >
+        
+        
+        <RadioButton 
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/first"
+            android:gravity="center_horizontal"
+            android:text="静态加载"
+            android:drawableTop="@drawable/ic_launcher"
+            android:button="@null"
+            android:background="@drawable/radio_pressed"
+            android:layout_weight="1"
+            
+            />
+        <RadioButton 
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/second"
+            android:gravity="center_horizontal"
+            android:text="动态加载"
+            android:drawableTop="@drawable/ic_launcher"
+            android:button="@null"
+            android:background="@drawable/radio_pressed"
+            android:layout_weight="1"
+            
+            />
+        <RadioButton 
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/third"
+            android:gravity="center_horizontal"
+            android:text="生命周期"
+            android:drawableTop="@drawable/ic_launcher"
+            android:button="@null"
+            android:background="@drawable/radio_pressed"
+            android:layout_weight="1"
+            
+            />
+        <RadioButton 
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:id="@+id/fourth"
+            android:gravity="center_horizontal"
+            android:text="传值通信"
+            android:drawableTop="@drawable/ic_launcher"
+            android:button="@null"
+            android:background="@drawable/radio_pressed"
+            android:layout_weight="1"
+            
+            />
+        
+        
+        
+        
+        
+        
+    </RadioGroup>
+    
+    
+    
+</RelativeLayout>

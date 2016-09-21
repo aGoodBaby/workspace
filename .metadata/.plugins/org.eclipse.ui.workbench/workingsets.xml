@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1467353645877_1" label="Easy" name="Easy">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AndroidActivity" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ActivityLifeCircle" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ListView" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GridView" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Progressbar" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CheckBox" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MarqueeTextView" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DatetimePicker" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AutoCompleteTextView" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DemoActivityOne" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LearnIntent" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ToggleButton" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/CalculatorDemo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/WebView" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LaunchMode" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Demo_1" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1467275431322_0" label="Window Working Set" name="Aggregate for window 1467275431320"/>
+<mruList name="Easy"/>
+</workingSetManager>
