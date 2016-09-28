@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="android.os.Bundle"/>
-<fullyQualifiedTypeName name="android.view.inputmethod.InputMethodManager"/>
-<fullyQualifiedTypeName name="android.content.Context"/>
-<fullyQualifiedTypeName name="android.R"/>
-<fullyQualifiedTypeName name="android.R.anim"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="android.os.Process"/>
-<fullyQualifiedTypeName name="android.webkit.WebViewClient"/>
-<fullyQualifiedTypeName name="android.webkit.WebSettings"/>
-<fullyQualifiedTypeName name="android.view.KeyEvent"/>
-<fullyQualifiedTypeName name="android.webkit.WebChromeClient"/>
-<fullyQualifiedTypeName name="com.example.webview.MainActivity"/>
-<fullyQualifiedTypeName name="android.app.ProgressDialog"/>
-<fullyQualifiedTypeName name="android.widget.RadioGroup"/>
 <fullyQualifiedTypeName name="android.widget.RadioGroup.OnCheckedChangeListener"/>
 <fullyQualifiedTypeName name="android.content.Intent"/>
 <fullyQualifiedTypeName name="android.app.FragmentManager"/>
 <fullyQualifiedTypeName name="android.app.FragmentTransaction"/>
-<fullyQualifiedTypeName name="android.app.Activity"/>
 <fullyQualifiedTypeName name="android.widget.EditText"/>
 <fullyQualifiedTypeName name="android.app.Fragment"/>
 <fullyQualifiedTypeName name="com.example.fragment.R.layout"/>
@@ -27,7 +12,6 @@
 <fullyQualifiedTypeName name="java.text.NumberFormat"/>
 <fullyQualifiedTypeName name="java.math.BigInteger"/>
 <fullyQualifiedTypeName name="android.view.View"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="android.support.v4.view.PagerAdapter"/>
 <fullyQualifiedTypeName name="com.example.viewpager.MyPagerAdapter"/>
 <fullyQualifiedTypeName name="android.support.v4.view.ViewPager"/>
@@ -39,9 +23,7 @@
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.util.Timer"/>
 <fullyQualifiedTypeName name="java.util.logging.Handler"/>
-<fullyQualifiedTypeName name="android.os.Handler"/>
 <fullyQualifiedTypeName name="java.util.TimerTask"/>
-<fullyQualifiedTypeName name="android.os.Message"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="com.example.viewpager.R.layout"/>
 <fullyQualifiedTypeName name="android.support.v4.app.Fragment"/>
@@ -51,7 +33,6 @@
 <fullyQualifiedTypeName name="android.support.v4.app.FragmentActivity"/>
 <fullyQualifiedTypeName name="android.widget.ViewFlipper"/>
 <fullyQualifiedTypeName name="com.example.viewflipper.R.drawable"/>
-<fullyQualifiedTypeName name="android.widget.ImageView"/>
 <fullyQualifiedTypeName name="com.example.viewflipper.R.id"/>
 <fullyQualifiedTypeName name="com.example.viewflipper.R.anim"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
@@ -60,4 +41,23 @@
 <fullyQualifiedTypeName name="com.example.scorllview.R.id"/>
 <fullyQualifiedTypeName name="android.view.View.OnTouchListener"/>
 <fullyQualifiedTypeName name="android.view.MotionEvent"/>
+<fullyQualifiedTypeName name="android.app.Activity"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.example.news.R.drawable"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="java.net.HttpURLConnection"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+<fullyQualifiedTypeName name="android.graphics.BitmapFactory"/>
+<fullyQualifiedTypeName name="android.os.Handler"/>
+<fullyQualifiedTypeName name="android.os.Message"/>
+<fullyQualifiedTypeName name="android.widget.ImageView"/>
+<fullyQualifiedTypeName name="android.os.AsyncTask"/>
+<fullyQualifiedTypeName name="com.example.news.NewsAdapter"/>
+<fullyQualifiedTypeName name="com.example.news.ImageLoader.NewsAsyncTask"/>
+<fullyQualifiedTypeName name="java.lang.Runtime"/>
+<fullyQualifiedTypeName name="android.support.v4.util.LruCache"/>
+<fullyQualifiedTypeName name="android.graphics.Bitmap"/>
+<fullyQualifiedTypeName name="com.example.news.ImageLoader"/>
 </qualifiedTypeNameHistroy>

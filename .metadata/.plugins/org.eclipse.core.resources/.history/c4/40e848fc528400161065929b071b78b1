@@ -1,0 +1,57 @@
+package com.example.news;
+
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.widget.ImageView;
+
+public class ImageLoader {
+	
+	public void showImageByThread(ImageView imageView,String url){
+		
+		new Thread(){
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				super.run();
+			}
+		}.start();
+	}
+	
+	public Bitmap getBitmapFromURL(String urlString){
+		
+		Bitmap bitmap;
+		InputStream is;
+		
+		try {
+			URL url=new URL(urlString);
+			try {
+				HttpURLConnection connection=(HttpURLConnection) url.openConnection();
+				is=new BufferedInputStream(connection.getInputStream());
+				bitmap=BitmapFactory.decodeStream(is);
+				connection.disconnect();
+				is.close();
+				return bitmap;
+				
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+		return null;
+	}
+	
+
+}

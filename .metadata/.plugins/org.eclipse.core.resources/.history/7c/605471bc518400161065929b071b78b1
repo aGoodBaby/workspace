@@ -1,0 +1,11 @@
+package com.example.news;
+
+import android.widget.ImageView;
+
+public class ImageLoader {
+	
+	public void showImageByThread(ImageView imageView,String url){
+		
+	}
+
+}

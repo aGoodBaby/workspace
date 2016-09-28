@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="21" version="2.0">
+<workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
-<window height="816" maximized="true" width="912" x="445" y="1">
+<window height="816" maximized="true" width="912" x="65" y="63">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="327"/>
@@ -13,7 +13,7 @@
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="61" y="22"/>
 <coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="55" y="22"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="38" y="22"/>
-<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="135" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -42,25 +42,21 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="C:/Users/82769/workspace/ScorllView/res/layout/main.xml" title="main.xml" tooltip="ScorllView/res/layout/main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ScorllView/res/layout/main.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/82769/workspace/News/src/com/example/news/MainActivity.java" title="MainActivity.java" tooltip="News/src/com/example/news/MainActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/News/src/com/example/news/MainActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="170"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/82769/workspace/ScorllView/src/com/example/scorllview/MainActivity.java" title="MainActivity.java" tooltip="ScorllView/src/com/example/scorllview/MainActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ScorllView/src/com/example/scorllview/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="831" selectionTopPixel="252"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewsAdapter.java" partName="NewsAdapter.java" path="C:/Users/82769/workspace/News/src/com/example/news/NewsAdapter.java" title="NewsAdapter.java" tooltip="News/src/com/example/news/NewsAdapter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/News/src/com/example/news/NewsAdapter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1879" selectionTopPixel="806"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/82769/workspace/ViewFlipper/src/com/example/viewflipper/MainActivity.java" title="MainActivity.java" tooltip="ViewFlipper/src/com/example/viewflipper/MainActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ViewFlipper/src/com/example/viewflipper/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="360"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="C:/Users/82769/workspace/Viewpager/src/com/example/viewpager/MainActivity.java" title="MainActivity.java" tooltip="Viewpager/src/com/example/viewpager/MainActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Viewpager/src/com/example/viewpager/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1730" selectionTopPixel="30"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImageLoader.java" partName="ImageLoader.java" path="C:/Users/82769/workspace/News/src/com/example/news/ImageLoader.java" title="ImageLoader.java" tooltip="News/src/com/example/news/ImageLoader.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/News/src/com/example/news/ImageLoader.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3758" selectionTopPixel="2369"/>
 </editor>
 </editors>
 <views>
@@ -411,7 +407,7 @@
 </info>
 <info part="org.eclipse.gef.ui.palette_view" ratio="0.18045649" ratioLeft="253" ratioRight="1149" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.664" ratioLeft="498" ratioRight="252" relationship="4" relative="org.eclipse.gef.ui.palette_view">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -437,124 +433,159 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ViewFlipper/src/com/example/viewflipper/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/ViewFlipper/res/anim/left_in.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/ViewFlipper/res/anim/left_out.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/ViewFlipper/res/anim/right_in.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/ViewFlipper/res/anim/right_out.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/ViewFlipper/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/ScorllView/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/ScorllView/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ScorllView/src/com/example/scorllview/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/ScorllView/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/ViewFlipper/src/com/example/viewflipper/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Viewpager/src/com/example/viewpager/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/News/src/com/example/news/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/News/src/com/example/news/NewsAdapter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/News/src/com/example/news/ImageLoader.java"/>
 </editors>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="806" y="0"/>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="1413" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="2956" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3014" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3020" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3776" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3195" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="2952" y="0"/>
+</item>
+<item historyLabel="NewsAdapter.java" index="1">
+<position info="not_deleted" x="1584" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="2952" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="2081" y="0"/>
+</item>
+<item historyLabel="NewsAdapter.java" index="1">
+<position info="not_deleted" x="1929" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position/>
+</item>
+<item historyLabel="NewsAdapter.java" index="1">
+<position info="not_deleted" x="1929" y="0"/>
+</item>
+<item historyLabel="NewsAdapter.java" index="1">
+<position info="not_deleted" x="1780" y="0"/>
 </item>
 <item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="891" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="1575" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="1484" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="1346" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="1484" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="1351" y="0"/>
-</item>
-<item historyLabel="left_in.xml" index="1"/>
-<item historyLabel="left_out.xml" index="2"/>
-<item historyLabel="right_in.xml" index="3"/>
-<item historyLabel="right_out.xml" index="4"/>
-<item historyLabel="right_in.xml" index="3"/>
-<item historyLabel="left_out.xml" index="2"/>
-<item historyLabel="left_in.xml" index="1"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="activity_main.xml" index="6"/>
-<item historyLabel="main.xml" index="7"/>
-<item historyLabel="activity_main.xml" index="6"/>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="535" y="0"/>
-</item>
-<item historyLabel="main.xml" index="7"/>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="535" y="0"/>
-</item>
-<item historyLabel="main.xml" index="7"/>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1197" y="0"/>
-</item>
-<item historyLabel="main.xml" index="7"/>
-<item historyLabel="strings.xml" index="9"/>
-<item historyLabel="main.xml" index="7"/>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1197" y="0"/>
-</item>
-<item historyLabel="main.xml" index="7"/>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1197" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1209" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1191" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="9"/>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1191" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="9"/>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1191" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1191" y="0"/>
+<item historyLabel="ImageLoader.java" index="2">
+<position/>
 </item>
-<item historyLabel="main.xml" index="7"/>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1191" y="0"/>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="618" y="0"/>
 </item>
-<item historyLabel="main.xml" index="7"/>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1191" y="0"/>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="1163" y="0"/>
 </item>
-<item historyLabel="main.xml" index="7"/>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="901" y="0"/>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="807" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="10">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="1070" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="901" y="0"/>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="1055" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1147" y="0"/>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="1063" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1035" y="0"/>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="1094" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1107" y="0"/>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="1124" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="8">
-<position info="not_deleted" x="1099" y="0"/>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="1154" y="0"/>
 </item>
-<item active="true" historyLabel="MainActivity.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="2799" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3493" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3471" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3475" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3604" y="0"/>
+</item>
+<item historyLabel="NewsAdapter.java" index="1">
+<position info="not_deleted" x="2106" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3604" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3407" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3440" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="2387" y="0"/>
+</item>
+<item historyLabel="NewsAdapter.java" index="1">
+<position info="not_deleted" x="1884" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="2387" y="0"/>
+</item>
+<item historyLabel="NewsAdapter.java" index="1">
+<position info="not_deleted" x="1859" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="2223" y="0"/>
+</item>
+<item historyLabel="NewsAdapter.java" index="1">
+<position info="not_deleted" x="1879" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="2223" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="2778" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="2799" y="0"/>
+</item>
+<item historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3498" y="0"/>
+</item>
+<item historyLabel="NewsAdapter.java" index="1">
+<position info="not_deleted" x="1879" y="0"/>
+</item>
+<item active="true" historyLabel="ImageLoader.java" index="2">
+<position info="not_deleted" x="3498" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -577,6 +608,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ImageLoader.java" tooltip="News/src/com/example/news/ImageLoader.java">
+<persistable path="/News/src/com/example/news/ImageLoader.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewsAdapter.java" tooltip="News/src/com/example/news/NewsAdapter.java">
+<persistable path="/News/src/com/example/news/NewsAdapter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="News/src/com/example/news/MainActivity.java">
+<persistable path="/News/src/com/example/news/MainActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="News/AndroidManifest.xml">
+<persistable path="/News/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewsBean.java" tooltip="News/src/com/example/news/NewsBean.java">
+<persistable path="/News/src/com/example/news/NewsBean.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="item_layout.xml" tooltip="News/res/layout/item_layout.xml">
+<persistable path="/News/res/layout/item_layout.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="News/res/layout/activity_main.xml">
+<persistable path="/News/res/layout/activity_main.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="Viewpager/src/com/example/viewpager/MainActivity.java">
 <persistable path="/Viewpager/src/com/example/viewpager/MainActivity.java"/>
 </file>
@@ -600,27 +652,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="right_out.xml" tooltip="ViewFlipper/res/anim/right_out.xml">
 <persistable path="/ViewFlipper/res/anim/right_out.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="right_in.xml" tooltip="ViewFlipper/res/anim/right_in.xml">
-<persistable path="/ViewFlipper/res/anim/right_in.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="left_out.xml" tooltip="ViewFlipper/res/anim/left_out.xml">
-<persistable path="/ViewFlipper/res/anim/left_out.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="left_in.xml" tooltip="ViewFlipper/res/anim/left_in.xml">
-<persistable path="/ViewFlipper/res/anim/left_in.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="ViewFlipper/res/layout/main.xml">
-<persistable path="/ViewFlipper/res/layout/main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="ViewFlipper/res/layout/activity_main.xml">
-<persistable path="/ViewFlipper/res/layout/activity_main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyFragmentPagerAdapter.java" tooltip="Viewpager/src/com/example/viewpager/MyFragmentPagerAdapter.java">
-<persistable path="/Viewpager/src/com/example/viewpager/MyFragmentPagerAdapter.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyPagerAdapter.java" tooltip="Viewpager/src/com/example/viewpager/MyPagerAdapter.java">
-<persistable path="/Viewpager/src/com/example/viewpager/MyPagerAdapter.java"/>
 </file>
 </mruList>
 </workbench>
